@@ -1,0 +1,11 @@
+==================================
+DAILY ACTIVITY REPORT
+Tanggal : 2026-06-14
+==================================
+Login gagal : 2
+Upload sukses : 3
+
+Top 3 user paling aktif :
+      3 alice 
+      2 bob 
+      1 carol 

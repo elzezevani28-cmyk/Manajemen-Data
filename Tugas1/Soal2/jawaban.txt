@@ -1,0 +1,15 @@
+# Soal 2 - Jawaban Teori
+
+## 1a. Tiga perintah Linux yang digunakan
+
+* **grep** : digunakan untuk mencari atau memfilter baris yang sesuai dengan pola tertentu.
+* **awk** : digunakan untuk mengambil dan mengolah kolom atau field dari data log.
+* **wc -l** : digunakan untuk menghitung jumlah baris hasil pencarian.
+
+## 1b. Mengapa perlu mengecek file log kosong?
+
+Karena jika file kosong atau tidak ada, script dapat menghasilkan output yang salah atau error saat diproses. Pengecekan ini membuat script lebih aman dan stabil.
+
+## 1c. Bagaimana memastikan hanya log hari ini yang diproses?
+
+Script dapat menggunakan perintah `date` untuk mengambil tanggal hari ini, kemudian menggunakan `grep` untuk memfilter hanya baris log yang memiliki tanggal tersebut sehingga log hari sebelumnya tidak ikut diproses.
