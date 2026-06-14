@@ -1,0 +1,8 @@
+Laptop,7000000
+Mouse,200000
+Keyboard,350000
+Monitor,2500000
+Flashdisk,50000
+Printer,1500000
+Speaker,80000
+Laptop Case,250000
