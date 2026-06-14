@@ -1,0 +1,1 @@
+grep "ERROR" access.log | tee error.log | wc -l && echo "Analisis Sukses" || echo "Analisis Gagal"
