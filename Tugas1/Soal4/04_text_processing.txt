@@ -1,0 +1,20 @@
+Soal 1
+grep "500" access.log
+
+Soal 2
+awk '{print $1}' access.log | sort | uniq
+
+Soal 3
+grep "GET" access.log | wc -l
+
+Soal 4
+awk '{print $1}' access.log | sort | uniq -c | sort -rn | head -3
+
+Soal 5
+sed 's/ 401 / 403 /g' access.log > access_fixed.log
+
+Soal 6
+grep " 200 " access.log | tail -5
+
+Soal 7
+awk '$9==200 {sum+=$10} END {print sum}' access.log
